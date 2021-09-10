@@ -13,12 +13,11 @@ body {
   box-shadow: 2px 2px 2px 2px #d3caca;
 }
 .Login-image {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNKU9ss2EjdyHLtbkRP0CVbrFNSCwL7DqLg&usqp=CAU");
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2015/03/26/647105/05a281a8916c25fe16d7efb579868c1b.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
-  color: whitesmoke;
   font-size: 2rem;
   font-weight: bolder;
   text-align: center;
@@ -28,7 +27,7 @@ body {
   display: grid;
   font-size: 1.2rem;
   padding: 5px 20px 5px 20px;
-  color: rgb(255, 217, 0);
+  color: rgba(123, 123, 216, 0.616);
   font-weight: bolder;
 }
 .login-form input {
@@ -39,13 +38,13 @@ body {
   outline: none;
   width: 80%;
   background-color: whitesmoke;
-  color: rgb(255, 217, 0);
+  color: rgba(123, 123, 216, 0.616);
   font-weight: bolder;
 
   box-shadow: 2px 2px 2px 2px #888888;
 }
 .login-form button {
-  background-color: rgb(255, 217, 0);
+  background-color: rgba(123, 123, 216, 0.616);
   border: none;
   width: 30%;
   height: 30px;
@@ -64,4 +63,75 @@ body {
     grid-template-columns: 1fr;
     padding: 20px;
   }
+  .Login-image {
+    height: 180px;
+  }
+  .login-form {
+    display: grid;
+    font-size: 1rem;
+    padding: 5px 20px 5px 20px;
+    color: rgba(123, 123, 216, 0.616);
+    font-weight: bolder;
+  }
+  .login-form button {
+    font-size: 1rem;
+  }
+}
+.homepage {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 300px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiUFwoe-vmF4iz-o3dxdl1QASve6fuMseiDQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  color: rgba(123, 123, 216, 0.616);
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.header a {
+  text-decoration: none;
+  color: rgba(123, 123, 216, 0.616);
+}
+.homepage h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+.homepage h2 {
+  text-align: center;
+}
+.homepage form {
+  text-align: center;
+  display: grid;
+  font-size: 1.3rem;
+}
+.homepage input {
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  border-radius: 5px;
+  border-style: none;
+  background: transparent;
+  border-bottom: 4px solid rgba(123, 123, 216, 0.616);
+  outline: none;
+  margin-bottom: 20px;
+}
+.homepage button {
+  width: 150px;
+  margin: auto;
+  border-style: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  padding: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(123, 123, 216, 0.616);
 }

@@ -28,7 +28,7 @@ const Login = () => {
             <div className ="Login">
        
        <div className ="Login-image">
-           <h1> Welcome  </h1>
+       
        </div>
        <div >
            <form className ="login-form">
