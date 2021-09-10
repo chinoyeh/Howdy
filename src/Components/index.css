@@ -231,6 +231,19 @@ body {
   outline: none;
   margin-bottom: 20px;
 }
+
+.Productivity button {
+  background-color: rgba(65, 65, 114, 0.616);
+  border: none;
+  width: 30%;
+  height: 30px;
+  border-radius: 10px;
+
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 480px) {
   .Worry {
     max-width: 300px;
@@ -248,17 +261,9 @@ body {
 
   .Productivity button {
     font-size: 1rem;
+    width: 50px
   }
 
 }
-.Productivity button {
-  background-color: rgba(65, 65, 114, 0.616);
-  border: none;
-  width: 30%;
-  height: 30px;
-  border-radius: 10px;
 
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bolder;
-}
+
