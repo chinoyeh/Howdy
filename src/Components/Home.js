@@ -1,4 +1,5 @@
 import React from 'react'
+import Productivity from './Productivity';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -30,7 +31,7 @@ const Home = () => {
         <form>
         <p> How are you doing today?</p>
             <input type = 'text'name ='feeling'/>
-            <button> Unpack your day?</button>
+           <Link to ='/Productivity'> <button> Unpack your day?</button></Link>
         </form>
         </div>
     )
