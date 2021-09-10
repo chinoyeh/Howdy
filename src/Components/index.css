@@ -245,6 +245,11 @@ body {
   .Worry p {
     font-size: 1rem;
   }
+
+  .Productivity button {
+    font-size: 1rem;
+  }
+
 }
 .Productivity button {
   background-color: rgba(65, 65, 114, 0.616);
